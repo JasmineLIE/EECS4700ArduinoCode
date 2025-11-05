@@ -28,21 +28,23 @@ void loop() {
 
   //Can adjust this code where it does not send any data at all unless the button is rpessed.
 if (pin_3_val == HIGH) {
-  data_to_send = "LEFT, " + pin_3_val;
-  Serial.println(data_to_send);
+  data_to_send = "LEFT";
+
 } else if (pin_4_val== HIGH ) {
   data_to_send = "UP";
-  Serial.println(data_to_send);
+ 
 } else if (pin_5_val == HIGH) {
   data_to_send = "DOWN";
-  Serial.println(data_to_send);
+
 } else if (pin_6_val == HIGH) {
   data_to_send = "RIGHT";
-  Serial.println(data_to_send);
+
 } else if (pin_7_val == HIGH) {
   data_to_send = "ENTER";
-  Serial.println(data_to_send);
+
 }
+
+  Serial.println(data_to_send);
  
   delay(100);
 
