@@ -21,7 +21,7 @@ void loop() {
   Serial.print("Sensor 1: ");
   Serial.println(hall_state);
  
-  Serial.print("Snesor 2: ");
+  Serial.print("Sensor 2: ");
   Serial.println(hall_state_2);
   delay(1000);
 
