@@ -4,7 +4,7 @@ const int hall_pin_1 = A0;
 const int hall_pin_2 = A1;
 const int hall_pin_3 = A2;
 const int hall_pin_4 = A3;
-const int hall_pin_5 = A4
+const int hall_pin_5 = A4;
 
 void setup() {
   
