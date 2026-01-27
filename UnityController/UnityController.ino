@@ -1,10 +1,10 @@
 
 
-const int hall_pin_1 = A0;
-const int hall_pin_2 = A1;
-const int hall_pin_3 = A2;
-const int hall_pin_4 = A3;
-const int hall_pin_5 = A4;
+const int hall_pin_1 = A0; //ENTER
+const int hall_pin_2 = A1; //LEFT
+const int hall_pin_3 = A2; //UP
+const int hall_pin_4 = A3; //DOWN
+const int hall_pin_5 = A4; //RIGHT
 
 void setup() {
   
@@ -18,15 +18,15 @@ void loop() {
   
  
  
- int hall_state_1 = analogRead(hall_pin_1);
+ int hall_state_1 = analogRead(hall_pin_1); //ENTER
 
- int hall_state_2 = analogRead(hall_pin_2);
+ int hall_state_2 = analogRead(hall_pin_2); //LEFT
 
- int hall_state_3 = analogRead(hall_pin_3);
+ int hall_state_3 = analogRead(hall_pin_3); //UP
 
- int hall_state_4 = analogRead(hall_pin_4);
+ int hall_state_4 = analogRead(hall_pin_4); //DOWN
 
- int hall_state_5 = analogRead(hall_pin_5);
+ int hall_state_5 = analogRead(hall_pin_5); //RIGHT
 
 
   Serial.print("A");
